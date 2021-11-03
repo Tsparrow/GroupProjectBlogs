@@ -4,6 +4,7 @@ html{
 body{
     width: 100%;
     background-color: grey;
+    margin: 0;
 }
 #heading{
     margin-left: auto;
@@ -12,19 +13,25 @@ body{
     background-color: black;
     color: white;
     font-size: 1.5em;
+    padding-top: 2em;
+    padding-bottom:2em;
 }
 #heading p{
     font-size: 0.7em;
+    
 }
 article{
-    width: 60em;
+    max-width: 60em;
+    width: 90%;
     font-size: 1.2em;
     color: white;
     background-color: rgb(40, 40, 40);
     text-indent: 2em;
     margin-left: auto;
     margin-right: auto;
-    padding: 3em;
+    padding: 5%;
+    padding-top: 2em;
+    padding-bottom:2em;
 }
 h2{
     text-align: center;
