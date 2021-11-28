@@ -13,17 +13,18 @@ body{
     background-color: black;
     color: white;
     font-size: 1.5em;
-    padding-top: 2em;
-    padding-bottom:2em;
+    padding-top: 4em;
+    padding-bottom:4em;
 }
 #heading p{
     font-size: 0.7em;
     
 }
 article{
-    max-width: 60em;
+    max-width: 55em;
     width: 90%;
     font-size: 1.2em;
+    line-height: 1.5em;
     color: white;
     background-color: rgb(40, 40, 40);
     text-indent: 2em;
@@ -32,6 +33,12 @@ article{
     padding: 5%;
     padding-top: 2em;
     padding-bottom:2em;
+}
+section{
+    background-color: darkgray;
+    color: black;
+    padding: 2em;
+    margin-top: 4em;
 }
 h2{
     text-align: center;
